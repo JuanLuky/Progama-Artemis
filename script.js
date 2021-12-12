@@ -15,7 +15,7 @@ function subirtela() {
     const rocket = document.querySelector('.scrool');
     rocket.classList.add('active');
 
-    window.scrollTo ({
+    window.scrollTo({
         top: 0,
         left: 0,
         behavior: 'smooth'
@@ -41,28 +41,28 @@ window.addEventListener('scroll', decidirScroll);
 // Contagem Regressiva =================================
 var dataFutura = new Date("February 12, 2022 21:00:00").getTime();
 
-var dias,horas,minutos,segundos;
+var dias, horas, minutos, segundos;
 
 function setValores(e) {
     return document.getElementById(e)
 }
 
-setInterval(function() {
+setInterval(function () {
     var dataAtual = new Date().getTime();
 
     var segundoTotal = (dataFutura - dataAtual) / 1000;
 
-    dias = parseInt(segundoTotal /86400)
-    segundoTotal = segundoTotal%86400
+    dias = parseInt(segundoTotal / 86400)
+    segundoTotal = segundoTotal % 86400
 
-    horas = parseInt(segundoTotal/3600)
-    segundoTotal = segundoTotal%3600
+    horas = parseInt(segundoTotal / 3600)
+    segundoTotal = segundoTotal % 3600
 
-    minutos = parseInt(segundoTotal/60)
-    segundos = parseInt(segundoTotal%60) 
+    minutos = parseInt(segundoTotal / 60)
+    segundos = parseInt(segundoTotal % 60)
 
     setValores("timerD").innerHTML = dias < 10 ? '0' + dias : dias;
     setValores("timerH").innerHTML = horas < 10 ? '0' + horas : horas;
     setValores("timerM").innerHTML = minutos < 10 ? '0' + minutos : minutos;
     setValores("timerS").innerHTML = segundos < 10 ? '0' + segundos : segundos;
-},1000);
+}, 1000);

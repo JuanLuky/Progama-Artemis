@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Noto+Sans&family=Readex+Pro:wght@300;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Noto+Sans&family=Readex+Pro:wght@300;400&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -131,7 +131,7 @@ nav ul li a {
   justify-content: center;
   align-items: center;
 }
-#videoArtemis video{
+#videoArtemis video {
   height: 100vh;
   width: 100%;
   z-index: 1000;
@@ -169,7 +169,7 @@ nav ul li a {
 }
 .score {
   text-align: center;
-  background: linear-gradient(to bottom,#cddce9c5, #16293650);
+  background: linear-gradient(to bottom, #cddce9c5, #16293650);
   padding: 20px;
   border-radius: 20px;
   width: 420px;
@@ -181,7 +181,6 @@ nav ul li a {
   letter-spacing: 3px;
   font-size: 2rem;
   font-family: "lato", sans-serif;
-
 
   background: linear-gradient(#090a0f, #1d364e);
   background-clip: text;
@@ -197,7 +196,6 @@ nav ul li a {
   font-size: 1.5rem;
   margin-bottom: 2rem;
   font-family: "lato", sans-serif;
-
 
   background: linear-gradient(#090a0f, #1d364e);
   background-clip: text;
@@ -223,7 +221,7 @@ nav ul li a {
 }
 .count li span {
   font-size: 3.5rem;
-  font-weight:400;
+  font-weight: 400;
   background: linear-gradient(white, #7e99b3);
   background-clip: text;
   -webkit-background-clip: text;
@@ -243,7 +241,7 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background:linear-gradient(#162230da, #141c27ef),url(img/art1.jpg);
+  background: linear-gradient(#162230da, #141c27ef), url(img/art1.jpg);
   background-size: cover;
   background-position: center;
   font-family: "lato", sans-serif;
@@ -263,22 +261,22 @@ nav ul li a {
 }
 .textAbout h1 img {
   width: 50px;
-  margin-left:10px;
+  margin-left: 10px;
 }
 .textAbout h1 {
   font-size: 6rem;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight:600;
-  margin-bottom:20px;
+  font-weight: 600;
+  margin-bottom: 20px;
   background: linear-gradient(white, #7e99b3);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .textAbout span {
-  font-family: 'Noto Sans', sans-serif;
-  font-family: 'Readex Pro', sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Readex Pro", sans-serif;
 }
 .textAbout p {
   font-size: 1.8rem;
@@ -289,8 +287,6 @@ nav ul li a {
   -webkit-text-fill-color: transparent;
 }
 
-
-
 /* About Artemis 2 =================== */
 
 #about2 {
@@ -298,7 +294,7 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background:linear-gradient(#162230c5, #141c27f6),url(img/foguetesls.jpg);
+  background: linear-gradient(#162230c5, #141c27f6), url(img/foguetesls.jpg);
   background-size: cover;
   background-position: top;
   font-family: "lato", sans-serif;
@@ -320,16 +316,16 @@ nav ul li a {
   font-size: 6rem;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight:600;
-  margin-bottom:20px;
+  font-weight: 600;
+  margin-bottom: 20px;
   background: linear-gradient(white, #7e99b3);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .textAbout2 span {
-  font-family: 'Noto Sans', sans-serif;
-  font-family: 'Readex Pro', sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Readex Pro", sans-serif;
 }
 .textAbout2 p {
   font-size: 1.8rem;
@@ -339,11 +335,10 @@ nav ul li a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.twitterAbout2{
+.twitterAbout2 {
   width: 320px;
   z-index: 99;
 }
-
 
 /* About Artemis 3 =================== */
 
@@ -352,7 +347,7 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background:linear-gradient(#162230c5, #141c27f6),url(img/austronalta.jpg);
+  background: linear-gradient(#162230c5, #141c27f6), url(img/austronalta.jpg);
   background-size: cover;
   background-position: center;
   font-family: "lato", sans-serif;
@@ -374,16 +369,16 @@ nav ul li a {
   font-size: 6rem;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-weight:600;
-  margin-bottom:20px;
+  font-weight: 600;
+  margin-bottom: 20px;
   background: linear-gradient(white, #7e99b3);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 .textAbout3 span {
-  font-family: 'Noto Sans', sans-serif;
-  font-family: 'Readex Pro', sans-serif;
+  font-family: "Noto Sans", sans-serif;
+  font-family: "Readex Pro", sans-serif;
 }
 .textAbout3 p {
   font-size: 1.8rem;
@@ -394,11 +389,10 @@ nav ul li a {
   -webkit-text-fill-color: transparent;
 }
 
-.imgAbout3 img{
+.imgAbout3 img {
   width: 400px;
   z-index: 9999;
 }
-
 
 /* Artemis Footer ====================== */
 
@@ -407,7 +401,7 @@ nav ul li a {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background:linear-gradient(#162230c5, #141c27f6),url(img/lua.jpg);
+  background: linear-gradient(#162230c5, #141c27f6), url(img/lua.jpg);
   background-size: cover;
   background-position: center;
   font-family: "lato", sans-serif;
@@ -452,7 +446,6 @@ nav ul li a {
 .textAboutFooter img {
   width: 200px;
 }
-
 
 /* Particulas ===================== */
 
@@ -1199,21 +1192,18 @@ nav ul li a {
     77px 1074px #fff;
 }
 
-
-
-
 /* ScrollBar =======================*/
 ::-webkit-scrollbar {
   width: 10px;
-  background: #0e1f2c; 
+  background: #0e1f2c;
 }
 
 ::-webkit-scrollbar-track {
   border-radius: 10px;
 }
- 
+
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom,#d7dfe6de, #162936);
+  background: linear-gradient(to bottom, #d7dfe6de, #162936);
   border-radius: 10px;
 }
 
@@ -1249,6 +1239,3 @@ nav ul li a {
     transform: translateY(-600px);
   }
 }
-
-
-
