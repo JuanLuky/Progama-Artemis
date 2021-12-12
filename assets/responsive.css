@@ -59,11 +59,15 @@
 }
 
 @media (max-width: 750px) {
+  html {
+    font-size: 40%;
+  }
   .text h1 {
     font-size: 8rem;
   }
   .textAbout h1 {
     margin-top: 10px;
+    margin-bottom: 10px;
   }
   .text h1::after {
     content: "";
@@ -82,9 +86,6 @@
 }
 
 @media (max-width: 500px) {
-  html {
-    font-size: 45%;
-  }
   .text {
     margin-top: -15rem;
   }
