@@ -137,7 +137,6 @@ nav ul li a {
   z-index: 1000;
   object-fit: cover;
   background-color: transparent;
-  border-radius: 25px 25px 0 0;
 }
 
 /* foguete ========================== */
@@ -171,7 +170,7 @@ nav ul li a {
   text-align: center;
   background: linear-gradient(to bottom, #e4ecf3b9, #1629362c);
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 6px;
   width: 420px;
 }
 .score h1 {
