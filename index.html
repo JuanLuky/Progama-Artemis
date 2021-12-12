@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NASA - Foguete à Lua no início de 2022</title>
+
+  <link rel="shortcut icon" href="assets/img/artemislogo.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="assets/responsive.css">
+  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+</head>
+
+<body>
+    <header>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#videoArtemis">Artemis</a></li>
+          <li><a href="#about">Artemis I</a></li>
+          <li><a href="#about2">Artemis II</a></li>
+          <li><a href="#about3">Artemis III</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Stars -->
+      <div id='stars'></div>
+      <div id='stars2'></div>
+      <div id='stars3'></div>
+
+
+      <section id='containerHome'>
+        <div class="home">
+          <div class="text">
+            <h1 class="name">Programa Artemis</h1>
+            <p class="nameDesc">Objetivo de pousar a primeira mulher e o próximo homem na Lua.</p>
+          </div>
+          <img class="scrool" onclick="subirtela()" src="assets/img/rocket-animate.svg" alt="">
+        </div>
+      </section>
+
+      <section id="videoArtemis">
+        <video  controls poster="assets/img/home-art.jpg">
+          <source src="assets/video/Moon  4K_1080p.mp4" type="video/mp4">
+        </video>
+      </section>
+
+      <section id="about">
+        <div class="abouArea">
+          <div class="textAbout">
+            <h1>Artemis <span>I</span> <img src="assets/img/artemis1.png" alt="img"> </h1>
+            <p>É o primeiro voo do Space Launch System e o segundo voo planejado da nave espacial Orion. O lançamento
+              será no Complexo 39 de lançamento do Centro Espacial Kennedy, na data planejada de 12 de fevereiro de
+              2022. <br><br> A missão não será tripulada ou seja, ela não contará com astronautas dentro da cápsula
+              Orion e
+              levará a nave para contornar a Lua, em um voo que deve durar pouco mais de três semanas. Ao longo deste
+              período, a cápsula sairá da Terra, contornará a Lua e voltará para casa, com a reentrada e pouso
+              programados
+              para ocorrerem sobre o Oceano Pacífico.</p>
+          </div>
+
+          <section class="contagemRegresiva">
+            <div id="score" class="containerScore">
+              <div class="score">
+
+                <h1>Lançamento do Artemis I</h1>
+                <p>12 Fevereiro 2022</p>
+
+                <ul class="count">
+                  <li>
+                    <span id="timerD">0</span>
+                    <div class="timeText">dias</div>
+                  </li>
+                  <li>
+                    <span id="timerH">0</span>
+                    <div class="timeText">horas</div>
+                  </li>
+                  <li>
+                    <span id="timerM">0</span>
+                    <div class="timeText">min.</div>
+                  </li>
+                  <li>
+                    <span id="timerS">0</span>
+                    <div class="timeText">sec.</div>
+                  </li>
+                </ul>
+              </div>
+          </section>
+
+        </div>
+      </section>
+
+      <section id="about2">
+        <div class="abouArea2">
+          <div class="textAbout2">
+            <h1>Artemis <span>II</span></h1>
+            <p>A missão Artemis II contará com a cápsula Orion viajando ao redor da Lua já com quatro astronautas a
+              bordo,
+              mas sem pouso, somente para mais testes e estudos.<br><br> Com a confiança baseada na missão Artemis I e nas milhares de horas de voo
+              anteriores e
+              testes de solo, a tripulação do Artemis II embarcará no Orion no topo do SLS (Foguete) para uma missão de
+              aproximadamente 10 dias
+              onde eles estabelecerão um recorde para a viagem humana mais distante além do outro lado da Lua em um
+              híbrido
+              trajetória de retorno livre.</p>
+          </div>
+
+          <div class="twitterAbout2">
+            <blockquote class="twitter-tweet" data-theme="dark">
+              <p lang="en" dir="ltr">The Launch Vehicle Stage Adapter provides protection for the SLS avionics and
+                electrical devices in the Interim Cryogenic Propulsion System. It also connects the rocket&#39;s Core
+                Stage
+                and Orion Stage Adapter. LEARN MORE about the LVSA here &gt;&gt; <a
+                  href="https://t.co/T8bl6Xxvv5">https://t.co/T8bl6Xxvv5</a> <a
+                  href="https://t.co/nMDO6Dzwuu">pic.twitter.com/nMDO6Dzwuu</a></p>&mdash; NASA_SLS (@NASA_SLS) <a
+                href="https://twitter.com/NASA_SLS/status/1468336953271754758?ref_src=twsrc%5Etfw">December 7, 2021</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+        </div>
+      </section>
+
+      <div id='starss'></div>
+      <div id='starss2'></div>
+      <div id='starss3'></div>
+
+      <section id="about3">
+        <div class="abouArea3">
+          <div class="textAbout3">
+            <h1>Artemis <span>III</span> </h1>
+            <p>A missão Artemis III, programada para acontecer em 2024, levará a primeira mulher e a primeira pessoa
+              negra à
+              superfície lunar. <br><br> Artemis III será o culminar de testes rigorosos e muito
+              mais de dois milhões de milhas acumuladas no espaço profundo da NASA
+              sistemas de transporte durante Artemis I e II.<br><br> Orion e sua tripulação de quatro irão mais uma vez
+              viajar para a Lua, está
+              hora de fazer história com a primeira mulher e o próximo homem a andar
+              em sua superfície.</p>
+          </div>
+
+          <div class="imgAbout3">
+            <img src="assets/img/art2.svg" alt="img-sls">
+          </div>
+        </div>
+      </section>
+
+      <section id="aboutFooter">
+        <div class="abouAreaFooter">
+          <div class="textAboutFooter">
+            <img src="assets/img/artlogowhite.png" alt="logo-Artemis">
+            <p>Com as missões Artemis, a NASA levará a primeira mulher e a primeira pessoa negra à Lua, usando
+              tecnologias inovadoras para explorar mais a superfície lunar do que nunca. Vamos colaborar com parceiros
+              comerciais e internacionais e estabelecer a primeira presença de longo prazo na Lua. Então, usaremos o que
+              aprendemos na Lua e ao redor dela para dar o próximo salto gigante: enviar os primeiros astronautas a
+              Marte.</p>
+            <h4>Para saber mais <a href="https://www.nasa.gov/specials/artemis/#late">Clique aqui</a></h4>
+          </div>
+        </div>
+      </section>
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
