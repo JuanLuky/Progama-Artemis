@@ -169,7 +169,7 @@ nav ul li a {
 }
 .score {
   text-align: center;
-  background: linear-gradient(to bottom, #cddce9c5, #16293650);
+  background: linear-gradient(to bottom, #cddce9a6, #16293650);
   padding: 20px;
   border-radius: 20px;
   width: 420px;
@@ -300,41 +300,7 @@ nav ul li a {
   font-family: "lato", sans-serif;
   color: white;
 }
-.abouArea2 {
-  display: flex;
-  margin: auto;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 980px;
-  width: 90%;
-}
-.textAbout2 {
-  width: 470px;
-  z-index: 100;
-}
-.textAbout2 h1 {
-  font-size: 6rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  background: linear-gradient(white, #7e99b3);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.textAbout2 span {
-  font-family: "Noto Sans", sans-serif;
-  font-family: "Readex Pro", sans-serif;
-}
-.textAbout2 p {
-  font-size: 1.8rem;
-  line-height: 24px;
-  background: linear-gradient(white, #cad7e2);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 .twitterAbout2 {
   width: 320px;
   z-index: 99;
@@ -352,41 +318,6 @@ nav ul li a {
   background-position: center;
   font-family: "lato", sans-serif;
   color: white;
-}
-.abouArea3 {
-  display: flex;
-  margin: auto;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 980px;
-  width: 90%;
-}
-.textAbout3 {
-  width: 470px;
-  margin-right: 2rem;
-}
-.textAbout3 h1 {
-  font-size: 6rem;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  background: linear-gradient(white, #7e99b3);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-.textAbout3 span {
-  font-family: "Noto Sans", sans-serif;
-  font-family: "Readex Pro", sans-serif;
-}
-.textAbout3 p {
-  font-size: 1.8rem;
-  line-height: 24px;
-  background: linear-gradient(white, #cad7e2);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .imgAbout3 img {
@@ -1191,6 +1122,7 @@ nav ul li a {
     1115px 749px #fff, 1427px 1768px #fff, 409px 415px #fff, 1514px 1083px #fff,
     77px 1074px #fff;
 }
+
 
 /* ScrollBar =======================*/
 ::-webkit-scrollbar {
