@@ -105,7 +105,17 @@
       html {
         font-size: 45%;
       }
+      .text {
+        margin-top: -15rem;
+      }
       .text h1 {
           font-size: 6rem;
+      }
+      .text p {
+        color: #fff;
+          background: linear-gradient(white, #ffffff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
       }
   }
