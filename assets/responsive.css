@@ -58,7 +58,6 @@
   }
   #videoArtemis {
     height: auto;
-    margin: -1px;
   }
   
 }
@@ -89,7 +88,7 @@
     width: 60px;
   }
   #videoArtemis video {
-    height: 50vh;
+    height: 35vh;
   }
 }
 
