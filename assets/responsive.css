@@ -56,6 +56,11 @@
     margin-bottom: 0;
     padding: 5px 10px;
   }
+  #videoArtemis {
+    height: auto;
+    margin: -1px;
+  }
+  
 }
 
 @media (max-width: 750px) {
@@ -83,6 +88,9 @@
   .home img {
     width: 60px;
   }
+  #videoArtemis video {
+    height: 50vh;
+  }
 }
 
 @media (max-width: 500px) {
@@ -102,6 +110,7 @@
   .textAboutFooter img {
     width: 150px;
   }
+  
 }
 
 @media (max-width: 400px) {
