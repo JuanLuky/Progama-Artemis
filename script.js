@@ -66,3 +66,14 @@ setInterval(function () {
     setValores("timerM").innerHTML = minutos < 10 ? '0' + minutos : minutos;
     setValores("timerS").innerHTML = segundos < 10 ? '0' + segundos : segundos;
 }, 1000);
+
+
+// Menu Mobile ===============================
+const menuSection = document.querySelector('.menu-section');
+const menuToggle = menuSection.querySelector('.menu-toggle');
+
+
+
+menuToggle.addEventListener('click', () => {
+    menuSection.classList.toggle("on")
+})
