@@ -39,9 +39,9 @@ window.addEventListener('scroll', decidirScroll);
 
 
 // Contagem Regressiva =================================
-var dataFutura = new Date("February 12, 2022 21:00:00").getTime();
+var dataFutura = new Date("February 25, 2022 21:00:00").getTime();
 
-var dias, horas, minutos, segundos;
+let dias, horas, minutos, segundos;
 
 function setValores(e) {
     return document.getElementById(e)
@@ -71,8 +71,6 @@ setInterval(function () {
 // Menu Mobile ===============================
 const menuSection = document.querySelector('.menu-section');
 const menuToggle = menuSection.querySelector('.menu-toggle');
-
-
 
 menuToggle.addEventListener('click', () => {
     menuSection.classList.toggle("on")
